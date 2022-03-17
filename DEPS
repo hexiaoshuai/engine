@@ -18,6 +18,7 @@
 # to list the dependency's destination directory.
 
 vars = {
+  'github_hxs_git': 'https://github.com/hexiaoshuai',
   'chromium_git': 'https://chromium.googlesource.com',
   'swiftshader_git': 'https://swiftshader.googlesource.com',
   'dart_git': 'https://dart.googlesource.com',
@@ -146,7 +147,7 @@ deps = {
    # and not have to specific specific hashes.
 
   'src/third_party/tonic':
-   Var('fuchsia_git') + '/tonic' + '@' + 'bd27b4549199df72fcaeefd259ebc12a31c2e4ee',
+   Var('github_hxs_git') + '/tonic' + '@' + 'bd27b4549199df72fcaeefd259ebc12a31c2e4ee',
 
   'src/third_party/benchmark':
    Var('fuchsia_git') + '/third_party/benchmark' + '@' + '21f1eb3fe269ea43eba862bf6b699cde46587ade',
@@ -351,7 +352,7 @@ deps = {
    Var('dart_git') + '/test_reflective_loader.git' + '@' + Var('dart_test_reflective_loader_tag'),
 
   'src/third_party/dart/third_party/pkg/tflite_native':
-   Var('dart_git') + '/tflite_native.git' + '@' + Var('dart_tflite_native_rev'),
+   Var('github_hxs_git') + '/tflite_native.git' + '@' + Var('dart_tflite_native_rev'),
 
   'src/third_party/dart/third_party/pkg/typed_data':
    Var('dart_git') + '/typed_data.git' + '@' + Var('dart_typed_data_tag'),
