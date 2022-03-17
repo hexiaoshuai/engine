@@ -491,26 +491,6 @@ deps = {
      'dep_type': 'cipd',
    },
 
-   'src/third_party/dart/tools/sdks': {
-     'packages': [
-       {
-         'package': 'dart/dart-sdk/${{platform}}',
-         'version': 'version:2.4.0'
-       }
-     ],
-     'dep_type': 'cipd',
-   },
-
-   'src/third_party/dart/pkg/analysis_server/language_model': {
-     'packages': [
-       {
-        'package': 'dart/language_model',
-        'version': 'gABkW8D_-f45it57vQ_ZTKFwev16RcCjvrdTCytEnQgC',
-       }
-     ],
-     'dep_type': 'cipd',
-   },
-
   'src/flutter/third_party/gn': {
     'packages': [
       {
